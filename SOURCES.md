@@ -4,8 +4,8 @@ This dataset combines data from the following sources:
 
 * National Health Interview Survey, Centers for Disease Control and Prevention:
 
-Survey Year / Source | HeadacheType | Country | StateProvince | AgeRangeLower / AgeRangeUpper | Ethnicity | Gender | Race | Affected
--------------------- | ------------ | ------- | ------------- | ----------------------------- | --------- | ------ | ---- | --------
+Source | HeadacheType | Country | StateProvince | Age Range | Ethnicity | Gender | Race | Affected
+------ | ------------ | ------- | ------------- | --------- | --------- | ------ | ---- | --------
 [2014](https://www.cdc.gov/nchs/nhis/nhis_2014_data_release.htm) | "Severe Headache/Migraine" | "United States" | "N/A | AGE_P: Only adult surveys are included, so the range goes from 18-85.  Respondents over 85 are represented as a range of 85 to -1. | HISPAN_I | SEX | RACERPI2 | AMIGR
 [2015](https://www.cdc.gov/nchs/nhis/nhis_2015_data_release.htm) | "Severe Headache/Migraine" | "United States" | "N/A | AGE_P: Only adult surveys are included, so the range goes from 18-85.  Respondents over 85 are represented as a range of 85 to -1. | HISPAN_I | SEX | RACERPI2 | AMIGR
 [2016](https://www.cdc.gov/nchs/nhis/nhis_2016_data_release.htm) | "Severe Headache/Migraine" | "United States" | "N/A | AGE_P: Only adult surveys are included, so the range goes from 18-85.  Respondents over 85 are represented as a range of 85 to -1. | HISPAN_I | SEX | RACERPI2 | AMIGR
