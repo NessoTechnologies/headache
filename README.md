@@ -7,11 +7,6 @@ This file ([`data/Headache.zip`](data/Headache.zip)) contains a compilation of h
 These files are maintained by [Nesso Technologies, Inc.](https://nesso.io).  If you have any questions or issues with these files, please [create a GitHub issue](https://github.com/NessoTechnologies/headache/issues).  We'd love to hear from you!
 
 
-## Sources
-
-Please see [`SOURCES.md`](SOURCES.md) for the full list.
-
-
 ## File Format
 
 The dataset is formatted as follows.  Please note that specific datasets may place special meaning on certain fields, and the values may deviate from what is described here.  Please see the [`SOURCES.md`](SOURCES.md) file for those source-specific details:
