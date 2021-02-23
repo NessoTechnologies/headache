@@ -27,3 +27,4 @@ AffectedMoE | decimal | The margin of error for the Affected value.  Not used at
 SoughtHelp | integer | The number of Affected people that also sought help for their condition.
 Source | nvarchar(4000) | The source for this data row.
 
+Changes to the file contents and/or format (especially breaking changes) are documented in [`Releases`](../../releases).
