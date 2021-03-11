@@ -22,9 +22,9 @@ AgeRangeUpper | integer | The upper end of the range that describes the age of t
 Ethnicity | nvarchar(200) | 
 Gender | nvarchar(200) | 
 Race | nvarchar(200) | 
-Affected | integer | The number of people that fall into this bucket (data is grouped by Year, AgeRangeLower, AgeRangeUpper, Ethnicity, Gender, Race, and Source).
-AffectedMoE | decimal | The margin of error for the Affected value.  Not used at this time.
-SoughtHelp | integer | The number of Affected people that also sought help for their condition.
+AffectedCount | integer | The number of people that fall into this bucket (data is grouped by Year, AgeRangeLower, AgeRangeUpper, Ethnicity, Gender, Race, and Source).
+AffectedMarginOfError | decimal | The margin of error for the Affected value.  Not used at this time.
+SoughtHelpCount | integer | The number of Affected people that also sought help for their condition.
 Source | nvarchar(4000) | The source for this data row.
 
 Changes to the file contents and/or format (especially breaking changes) are documented in [`Releases`](../../releases).
