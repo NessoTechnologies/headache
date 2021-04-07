@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This file ([`data/Headache.zip`](data/Headache.zip)) contains a compilation of headache data from multiple sources.  Each row in the dataset contains a "Source" column that shows you where it came from.  Please see [`SOURCES.md`](SOURCES.md) for the full list.
+This file ([`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip)) contains a compilation of headache data from multiple sources.  Each row in the dataset contains a "Source" column that shows you where it came from.  Please see [`SOURCES.md`](SOURCES.md) for the full list.
 
 These files are maintained by [Nesso Technologies, Inc.](https://nesso.io).  If you have any questions or issues with these files, please [create a GitHub issue](https://github.com/NessoTechnologies/headache/issues).  We'd love to hear from you!
 
