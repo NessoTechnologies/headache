@@ -19,9 +19,10 @@ Country | nvarchar(200) | The country where the study was conducted.
 StateProvince | nvarchar(200) | The state/province where the study was conducted, if applicable.  This will be "N/A" if it does not apply.
 AgeRangeLower | integer | The lower end of the range that describes the age of the study respondent.
 AgeRangeUpper | integer | The upper end of the range that describes the age of the study respondent.
-Ethnicity | nvarchar(200) | 
-Gender | nvarchar(200) | 
-Race | nvarchar(200) | 
+Ethnicity | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+Gender | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+Race | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+ParticipantResponse | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
 AffectedCount | integer | The number of people that fall into this bucket (data is grouped by Year, AgeRangeLower, AgeRangeUpper, Ethnicity, Gender, Race, and Source).
 AffectedMarginOfError | decimal | The margin of error for the Affected value.  Not used at this time.
 SoughtHelpCount | integer | The number of Affected people that also sought help for their condition.
