@@ -5,6 +5,7 @@ This dataset combines data from the following sources:
 
 Source | Year | . | Notes about original source file 
 ------ | ---- | - | --------------------------------
+NHIS<sup>1</sup> | 1996 | [Link](https://www.cdc.gov/nchs/nhis/pre1997.htm#1996) |Fixed-length file in a self-extracting ZIP requiring DOS. A note on the NHIS site explains that renaming the .exe to .zip will allow Windows users to extract the contents.
 NHIS<sup>1</sup> | 1997 | [Link](https://www.cdc.gov/nchs/nhis/1997-2018.htm#1997) |Fixed-length file in a self-extracting ZIP requiring DOS. A note on the NHIS site explains that renaming the .exe to .zip will allow Windows users to extract the contents.
 NHIS<sup>1</sup> | 1998 | [Link](https://www.cdc.gov/nchs/nhis/1997-2018.htm#1998) | Fixed-length file in a self-extracting ZIP requiring DOS. A note on the NHIS site explains that renaming the .exe to .zip will allow Windows users to extract the contents.
 NHIS<sup>1</sup> | 1999 | [Link](https://www.cdc.gov/nchs/nhis/1997-2018.htm#1999) | Fixed-length file in a self-extracting ZIP requiring DOS. A note on the NHIS site explains that renaming the .exe to .zip will allow Windows users to extract the contents.
