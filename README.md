@@ -14,7 +14,6 @@ The dataset is formatted as follows.  Please note that specific datasets may pla
 Field | Datatype | Description
 ----- | -------- | -----------
 Year | integer | The survey year.
-HeadacheType | nvarchar(200) |
 Country | nvarchar(200) | The country where the study was conducted.
 StateProvince | nvarchar(200) | The state/province where the study was conducted, if applicable.  This will be "N/A" if it does not apply.
 AgeRangeLower | integer | The lower end of the range that describes the age of the study respondent.
@@ -22,7 +21,16 @@ AgeRangeUpper | integer | The upper end of the range that describes the age of t
 Ethnicity | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
 Gender | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
 Race | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
-ParticipantResponse | nvarchar(200) | Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+HeadacheType01 | nvarchar(200) | Severe Headache/Migraine.  Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+HeadacheType02 | nvarchar(200) | Acute Headache, excluding migraine.  Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+HeadacheType03 | nvarchar(200) | Chronic Headache, except Tension.  Please see the "Reference Values Mapping.xlsx" spreadsheet included in [`data/HeadacheDataCompilation.zip`](data/HeadacheDataCompilation.zip) for the possible values for this field.
+HeadacheType04 | nvarchar(200) | Not yet used.
+HeadacheType05 | nvarchar(200) | Not yet used.
+HeadacheType06 | nvarchar(200) | Not yet used.
+HeadacheType07 | nvarchar(200) | Not yet used.
+HeadacheType08 | nvarchar(200) | Not yet used.
+HeadacheType09 | nvarchar(200) | Not yet used.
+HeadacheType10 | nvarchar(200) | Not yet used.
 AffectedCount | integer | The number of people that fall into this bucket (data is grouped by Year, AgeRangeLower, AgeRangeUpper, Ethnicity, Gender, Race, and Source).
 AffectedMarginOfError | decimal | The margin of error for the Affected value.  Not used at this time.
 SoughtHelpCount | integer | The number of Affected people that also sought help for their condition.
